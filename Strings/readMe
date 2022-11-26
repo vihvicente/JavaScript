@@ -1,0 +1,32 @@
+-----------------------------------------APRENDENDO JAVASCRIPT--------------------------------------
+Anotações Aula 06
+
+Comando prompt
+    Só retorna string
+
+parseInt ou parseFloat
+    Serve para converter uma string em número
+
+Number
+    Também serve para converter string em número
+    (Versão mais recente com o ECMAScript)
+
+Conversão de número para string
+    n = o que eu quero converter
+    String(n)
+    n.toString()
+
+Formatando Strings
+    var s = 'JavaScript'
+    'Eu estou aprendendo s' //não faz interpolação
+    'Eu estou aprendendo' + s //usa concatenação
+    'Eu estou aprendendo ${s}' //usa template string
+    s.length //conta os caracteres da string
+    s.toUpperCase() //converte para Maiúsculas
+    s.toLowerCase() //converte para minúsculas
+
+Formatando Números
+    var n1= 1545.5
+    n1.toFixed(2) //Formata o número para duas casas decimais
+
+    

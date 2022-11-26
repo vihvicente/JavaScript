@@ -1,0 +1,74 @@
+--------------------------------------APRENDENDO JAVASCRIPT----------------------------------
+Anotações Aula 07
+
+Parte 1
+Operadores(Aritméticos/Atribuição)-------------------------------
++ -> adição
+- -> subtração
+* -> multiplicação
+/ -> divisão
+% -> resto da divisão
+** -> potência
+
+Ordem de Precedência-----------------------------------
+1. ()
+2. **
+3. * / %
+
+var num = 10
+num = num + 1 // num ++
+num vale 11
+
+num = num -1 // num --
+num vale 9
+
+Parte 2=============================================================
+Operadores(Relacionais/Lógicos/Ternários)
+
+Relacionais----------------------
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+== igual
+=== idêntico (ve o tipo e o valor)
+!= diferente
+
+Identidade
+5 == 5 -> true
+5 == '5' -> true // não testa o tipo
+5 === '5' -> false // testa o tipo
+
+Lógicos--------------------------
+!  -> negação
+&& -> conjunção ('e')
+|| -> disjunção ('ou')
+
+Exemplos:
+idade >= 15 && idade <= 17 // A idaide está entre 15 e 17?
+estado == 'RJ' || estado == 'SP' // o estado é RJ ou SP?
+salário> 1500 && sexo != 'M' //o salário é acima de 1500 e não é homem?
+
+
+Ternários------------------------
+teste ? true : false
+
+Exemplo:
+média >= 7.0 ? "Aprovado" : "Reprovado" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
