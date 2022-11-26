@@ -1,2 +1,2 @@
 # JavaScript
-Aprendendo JavaScript(Anotações e Códigos
+Aprendendo JavaScript(Anotações e Códigos)
